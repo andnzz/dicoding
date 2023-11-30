@@ -1,4 +1,4 @@
-# dicoding Andre
+# Dicoding Andre
 ## Setup environment
 ```
 conda create --name main-ds python=3.9
