@@ -3,9 +3,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 from babel.numbers import format_currency
+sns.set(style='dark')
 
-#upload local
-all_df = pd.read_csv("submission/Dashboard/new_data.csv")
+#upload dataset
+all_df = pd.read_csv("submission/dashboard/new_data.csv")
 
 #=======================================================================================
 def create_daily_orders_df(df):
@@ -158,4 +159,4 @@ sns.barplot(x="payment_type", y="payment_value", data=sum_df.head(5), palette=co
 
 st.pyplot(fig)
 
-#=======================================================================================
+st.caption('Copyright © Andre 2023')
