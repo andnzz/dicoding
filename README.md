@@ -10,3 +10,8 @@ pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 ```
 streamlit run dashboard.py
 ```
+
+## Link Streamlit
+```
+https://dashboardpy-jm7uxvgkzksaju8saxeuah.streamlit.app/
+```
