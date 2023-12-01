@@ -5,8 +5,8 @@ import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
 
-#upload dataset
-all_df = pd.read_csv("submission/dashboard/new_data.csv")
+#dataset
+all_df = pd.read_csv("new_data.csv")
 
 #=======================================================================================
 def create_daily_orders_df(df):
